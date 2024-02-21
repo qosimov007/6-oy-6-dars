@@ -38,12 +38,10 @@ function Container() {
 
           {cardWrap.length != 30 && (
             <button
-              className="Back"
               onClick={() => {
                 setCardWrap(card.products);
               }}
             >
-              Back
             </button>
           )}
 

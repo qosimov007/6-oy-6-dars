@@ -68,7 +68,7 @@ function Form(props) {
         <input
           className="price"
           type="number"
-          placeholder="Oxirgi narxni kiriting..."
+          placeholder="Oxirgi narxni "
           ref={minPriceRef}
           onChange={() => {minPriceRef.current.value}}
         />
